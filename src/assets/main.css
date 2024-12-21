@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.hover-transition {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  transition-property: all;
+}
+
 /* #app {
   max-width: 1280px;
   margin: 0 auto;

@@ -1,0 +1,1 @@
+<template>detail test</template>
